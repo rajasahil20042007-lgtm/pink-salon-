@@ -1,0 +1,6 @@
+{
+  "name": "Pink Salon | Premium Beauty & Hair Salon",
+  "description": "Pink Salon offers premium hair, beauty, styling and bridal services with personalized appointments and professional beauty artists.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
