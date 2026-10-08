@@ -88,9 +88,13 @@ export const TransformationSection: React.FC<TransformationSliderProps> = ({ onB
                 {/* AFTER Image (Full container width underneath) */}
                 <img
                   src={activeItem.afterImage}
+                  width={800}
+                  height={500}
                   alt={`${activeItem.title} - After Transformation`}
                   className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none filter saturate-[0.98]"
                   referrerPolicy="no-referrer"
+                  loading="lazy"
+                  decoding="async"
                 />
 
                 {/* AFTER Label Tag */}
@@ -105,10 +109,14 @@ export const TransformationSection: React.FC<TransformationSliderProps> = ({ onB
                 >
                   <img
                     src={activeItem.beforeImage}
+                    width={800}
+                    height={500}
                     alt={`${activeItem.title} - Before Transformation`}
                     className="absolute inset-0 w-full h-full object-cover object-center max-w-none filter saturate-[0.9] brightness-[0.96]"
                     style={{ width: containerRef.current ? `${containerRef.current.clientWidth}px` : '100%' }}
                     referrerPolicy="no-referrer"
+                    loading="lazy"
+                    decoding="async"
                   />
                   {/* BEFORE Label Tag */}
                   <div className="absolute top-4 left-4 bg-black/60 backdrop-blur-xs text-white text-[11px] uppercase tracking-[0.2em] font-semibold px-3 py-1 pointer-events-none border border-white/20">

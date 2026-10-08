@@ -16,11 +16,13 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenBooking }) => 
             <div className="relative">
               <div className="aspect-[3/4] overflow-hidden border border-[#DCD5C9] bg-[#E8E2D8] shadow-lg">
                 <img
-                  src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=1000&q=80"
+                  src="/images/about-stylist.webp"
+                  width={600}
+                  height={800}
                   alt="Thoughtful styling consultation at Pink Salon"
                   className="w-full h-full object-cover object-center filter saturate-[0.95] hover:scale-105 transition-transform duration-700 ease-out"
-                  referrerPolicy="no-referrer"
                   loading="lazy"
+                  decoding="async"
                 />
               </div>
 

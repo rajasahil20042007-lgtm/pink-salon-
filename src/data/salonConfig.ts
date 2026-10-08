@@ -136,7 +136,7 @@ export const SALON_DATA: SalonConfig = {
       price: 999,
       duration: "45 min",
       isSignature: true,
-      image: "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=600&q=75&fm=webp"
     },
     {
       id: "hair-color",
@@ -147,7 +147,7 @@ export const SALON_DATA: SalonConfig = {
       price: 2499,
       duration: "120 min",
       isSignature: true,
-      image: "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=600&q=75&fm=webp"
     },
     {
       id: "hair-spa",
@@ -158,7 +158,7 @@ export const SALON_DATA: SalonConfig = {
       price: 1499,
       duration: "60 min",
       isSignature: true,
-      image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=600&q=75&fm=webp"
     },
     {
       id: "facial-skincare",
@@ -169,7 +169,7 @@ export const SALON_DATA: SalonConfig = {
       price: 1299,
       duration: "60 min",
       isSignature: true,
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=600&q=75&fm=webp"
     },
     {
       id: "bridal-makeup",
@@ -180,7 +180,7 @@ export const SALON_DATA: SalonConfig = {
       price: 7999,
       duration: "150 min",
       isSignature: true,
-      image: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=600&q=75&fm=webp"
     },
     {
       id: "nail-care",
@@ -191,7 +191,7 @@ export const SALON_DATA: SalonConfig = {
       price: 799,
       duration: "45 min",
       isSignature: true,
-      image: "https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=600&q=75&fm=webp"
     },
     // Additional menu items for complete categories
     {
@@ -202,7 +202,7 @@ export const SALON_DATA: SalonConfig = {
       included: "Balayage + Toner + Gloss Treatment",
       price: 3999,
       duration: "180 min",
-      image: "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=600&q=75&fm=webp"
     },
     {
       id: "keratin-smoothing",
@@ -212,7 +212,7 @@ export const SALON_DATA: SalonConfig = {
       included: "Infusion + Steam + Thermal Seal",
       price: 4499,
       duration: "150 min",
-      image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=600&q=75&fm=webp"
     },
     {
       id: "radiance-cleanup",
@@ -222,7 +222,7 @@ export const SALON_DATA: SalonConfig = {
       included: "Cleanse + Gentle Exfoliation + Cold Mask",
       price: 899,
       duration: "40 min",
-      image: "https://images.unsplash.com/photo-1512290900672-1f5be670499d?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1512290900672-1f5be670499d?auto=format&fit=crop&w=600&q=75&fm=webp"
     },
     {
       id: "party-glam",
@@ -232,7 +232,7 @@ export const SALON_DATA: SalonConfig = {
       included: "HD Makeup + Hair Styling + Lashes",
       price: 2999,
       duration: "75 min",
-      image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=600&q=75&fm=webp"
     },
     {
       id: "gel-extensions",
@@ -242,7 +242,7 @@ export const SALON_DATA: SalonConfig = {
       included: "Sculpting + Custom Shape + Gel Color",
       price: 1999,
       duration: "90 min",
-      image: "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=600&q=75&fm=webp"
     },
     {
       id: "botanical-pedicure",
@@ -252,29 +252,29 @@ export const SALON_DATA: SalonConfig = {
       included: "Soak + Callus Care + Polish",
       price: 999,
       duration: "50 min",
-      image: "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=600&q=75&fm=webp"
     }
   ],
   transformations: [
+    {
+      id: "trans-cut",
+      title: "French Curtain Layers & Face-Framing Cut",
+      category: "Haircut & Styling",
+      description: "Dramatic makeover with soft curtain bangs, effortless textured layers, and dimensional sunlit brunette tones.",
+      artist: "Ananya Sharma",
+      beforeImage: "/images/transformation-cut-before.webp",
+      afterImage: "/images/transformation-cut-after.webp",
+      duration: "1.5 hrs"
+    },
     {
       id: "trans-color",
       title: "Dimensional Hazel Balayage",
       category: "Hair Color",
       description: "Transitioned from brassy warm tones into a luminous, dimensional hazel balayage with seamless blending and gloss.",
       artist: "Ananya Sharma",
-      beforeImage: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80",
-      afterImage: "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=800&q=80",
+      beforeImage: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=600&q=75&fm=webp",
+      afterImage: "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=600&q=75&fm=webp",
       duration: "3.5 hrs"
-    },
-    {
-      id: "trans-cut",
-      title: "Curtain Bangs & French Layers",
-      category: "Haircut & Styling",
-      description: "Weight reduction and soft frame-contouring layers for naturally voluminous movement.",
-      artist: "Ananya Sharma",
-      beforeImage: "https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?auto=format&fit=crop&w=800&q=80",
-      afterImage: "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=800&q=80",
-      duration: "1 hr"
     },
     {
       id: "trans-bridal",
@@ -282,8 +282,8 @@ export const SALON_DATA: SalonConfig = {
       category: "Bridal Makeup",
       description: "Radiant dewy HD base, intricate Chandan artistry, traditional Kohl gaze, and velvet rose lips.",
       artist: "Meera Kapoor",
-      beforeImage: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
-      afterImage: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=800&q=80",
+      beforeImage: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=75&fm=webp",
+      afterImage: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=600&q=75&fm=webp",
       duration: "2.5 hrs"
     },
     {
@@ -292,8 +292,8 @@ export const SALON_DATA: SalonConfig = {
       category: "Hair Spa & Repair",
       description: "Deep bonded peptide repair converting heat-damaged brittleness into touchable, light-catching silk.",
       artist: "Riya Sen",
-      beforeImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80",
-      afterImage: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=800&q=80",
+      beforeImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=75&fm=webp",
+      afterImage: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=600&q=75&fm=webp",
       duration: "1.5 hrs"
     }
   ],
@@ -304,7 +304,7 @@ export const SALON_DATA: SalonConfig = {
       role: "Creative Hair Stylist",
       specialty: "Hair Color & Transformation",
       experience: "9+ Years Experience",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=500&q=75&fm=webp"
     },
     {
       id: "artist-riya",
@@ -312,7 +312,7 @@ export const SALON_DATA: SalonConfig = {
       role: "Senior Beauty Artist",
       specialty: "Skin & Beauty Rituals",
       experience: "7+ Years Experience",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=500&q=75&fm=webp"
     },
     {
       id: "artist-meera",
@@ -320,7 +320,7 @@ export const SALON_DATA: SalonConfig = {
       role: "Makeup Artist",
       specialty: "Bridal & Occasion Makeup",
       experience: "8+ Years Experience",
-      image: "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=500&q=75&fm=webp"
     },
     {
       id: "artist-arjun",
@@ -328,7 +328,7 @@ export const SALON_DATA: SalonConfig = {
       role: "Senior Stylist",
       specialty: "Men's Grooming & Styling",
       experience: "6+ Years Experience",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=500&q=75&fm=webp"
     }
   ],
   gallery: [
@@ -336,56 +336,56 @@ export const SALON_DATA: SalonConfig = {
       id: "gal-1",
       title: "Architectural Interior & Styling Chairs",
       category: "Salon Interior",
-      image: "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1200&q=80",
+      image: "/images/hero-desktop.webp",
       aspect: "landscape"
     },
     {
       id: "gal-2",
       title: "Editorial Sunlit Balayage Waves",
       category: "Hair Color",
-      image: "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=600&q=75&fm=webp",
       aspect: "portrait"
     },
     {
       id: "gal-3",
       title: "Royal Bride Traditional Elegance",
       category: "Bridal Looks",
-      image: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=600&q=75&fm=webp",
       aspect: "square"
     },
     {
       id: "gal-4",
       title: "Minimalist Aesthetic Wash Lounges",
       category: "Salon Interior",
-      image: "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=800&q=80",
+      image: "/images/location-salon.webp",
       aspect: "square"
     },
     {
       id: "gal-5",
       title: "Gloss Finish Precision Cutting",
       category: "Hair Styling",
-      image: "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=600&q=75&fm=webp",
       aspect: "portrait"
     },
     {
       id: "gal-6",
       title: "Couture Chrome Nail Sculpting",
       category: "Nail Care",
-      image: "https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=600&q=75&fm=webp",
       aspect: "landscape"
     },
     {
       id: "gal-7",
       title: "Botanical Facial & Skin Restoration",
       category: "Beauty Treatments",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80",
+      image: "/images/about-stylist.webp",
       aspect: "portrait"
     },
     {
       id: "gal-8",
       title: "Dewy Glow Wedding Reception",
       category: "Bridal Looks",
-      image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=600&q=75&fm=webp",
       aspect: "square"
     }
   ],

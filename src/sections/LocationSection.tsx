@@ -105,10 +105,13 @@ export const LocationSection: React.FC = () => {
             <div className="relative aspect-[16/11] overflow-hidden border border-[#DCD5C9] bg-[#E8E2D8] shadow-xl group">
               {/* Stylized Architectural Location Image simulating luxury map overlay */}
               <img
-                src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1200&q=80"
+                src="/images/location-salon.webp"
+                width={800}
+                height={550}
                 alt="Pink Salon Studio entrance, Park Street"
                 className="w-full h-full object-cover filter saturate-[0.85] contrast-[1.05] group-hover:scale-103 transition-transform duration-700 ease-out"
-                referrerPolicy="no-referrer"
+                loading="lazy"
+                decoding="async"
               />
               
               {/* Map-style luxury pinpoint badge */}

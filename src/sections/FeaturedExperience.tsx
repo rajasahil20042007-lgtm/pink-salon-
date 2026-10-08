@@ -16,11 +16,13 @@ export const FeaturedExperience: React.FC<FeaturedExperienceProps> = ({ onOpenBo
           <div className="lg:col-span-6 relative">
             <div className="relative aspect-[4/5] overflow-hidden border border-[#DCD5C9] bg-[#E8E2D8] shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=85"
+                src="/images/featured-experience.webp"
+                width={800}
+                height={1000}
                 alt="The Pink Signature Experience treatment at Pink Salon"
                 className="w-full h-full object-cover object-center filter saturate-[0.95] contrast-[1.03]"
-                referrerPolicy="no-referrer"
                 loading="lazy"
+                decoding="async"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none" />
 

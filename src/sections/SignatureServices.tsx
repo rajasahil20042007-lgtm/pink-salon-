@@ -39,10 +39,13 @@ export const SignatureServices: React.FC<SignatureServicesProps> = ({ onBookServ
                 {service.image ? (
                   <img
                     src={service.image}
+                    width={400}
+                    height={250}
                     alt={service.name}
                     className="w-full h-full object-cover object-center filter saturate-[0.92] group-hover:scale-105 transition-transform duration-700 ease-out"
                     referrerPolicy="no-referrer"
                     loading="lazy"
+                    decoding="async"
                   />
                 ) : (
                   <div className="w-full h-full bg-[#EBE6DD] flex items-center justify-center text-[#78716C] text-xs">

@@ -77,13 +77,28 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
               
               {/* Main Luxury Frame */}
               <div className="relative aspect-[4/5] overflow-hidden border border-[#E7E2DA] shadow-2xl bg-[#EBE7DF]">
-                <img
-                  src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1000&q=85"
-                  alt="Pink Salon Luxury Interior"
-                  className="w-full h-full object-cover object-center filter saturate-[0.92] contrast-[1.02] hover:scale-105 transition-transform duration-700 ease-out"
-                  referrerPolicy="no-referrer"
-                  loading="eager"
-                />
+                <picture>
+                  <source
+                    media="(max-width: 640px)"
+                    srcSet="/images/hero-mobile.webp"
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width: 641px)"
+                    srcSet="/images/hero-desktop.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="/images/hero-desktop.webp"
+                    width={800}
+                    height={1000}
+                    alt="Pink Salon Luxury Interior and Styling Studio"
+                    className="w-full h-full object-cover object-center filter saturate-[0.92] contrast-[1.02] hover:scale-105 transition-transform duration-700 ease-out"
+                    fetchPriority="high"
+                    loading="eager"
+                    decoding="async"
+                  />
+                </picture>
                 
                 {/* Warm gradient overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent pointer-events-none" />

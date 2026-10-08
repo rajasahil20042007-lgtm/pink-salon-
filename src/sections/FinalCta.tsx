@@ -12,10 +12,13 @@ export const FinalCta: React.FC<FinalCtaProps> = ({ onOpenBooking }) => {
       {/* Background luxury overlay imagery */}
       <div className="absolute inset-0 opacity-20 -z-1">
         <img
-          src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1600&q=80"
+          src="/images/hero-desktop.webp"
+          width={1000}
+          height={600}
           alt="Pink Salon Ambiance"
           className="w-full h-full object-cover filter blur-xs"
-          referrerPolicy="no-referrer"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <div className="absolute inset-0 bg-gradient-to-b from-[#1C1917] via-[#1C1917]/90 to-[#1C1917] -z-1" />

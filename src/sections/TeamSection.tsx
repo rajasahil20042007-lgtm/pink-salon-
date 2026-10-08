@@ -37,10 +37,13 @@ export const TeamSection: React.FC<TeamSectionProps> = ({ onBookWithArtist }) =>
               <div className="relative aspect-[4/5] overflow-hidden bg-[#ECE8E0] border-b border-[#E7E2DA]">
                 <img
                   src={member.image}
+                  width={400}
+                  height={500}
                   alt={`${member.name} - ${member.role} at Pink Salon`}
                   className="w-full h-full object-cover object-top filter saturate-[0.92] group-hover:scale-105 transition-transform duration-700 ease-out"
                   referrerPolicy="no-referrer"
                   loading="lazy"
+                  decoding="async"
                 />
 
                 {/* Subtle Gradient */}

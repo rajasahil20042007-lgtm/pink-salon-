@@ -9,10 +9,32 @@
     <meta property="og:description" content="Pink Salon offers premium hair, beauty, styling and bridal services with personalized appointments and professional beauty artists." />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <!-- Google Fonts: Cormorant Garamond & Plus Jakarta Sans -->
+
+    <!-- 1. Preload LCP Hero Image for both mobile & desktop -->
+    <link
+      rel="preload"
+      as="image"
+      href="/images/hero-desktop.webp"
+      type="image/webp"
+      media="(min-width: 641px)"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="/images/hero-mobile.webp"
+      type="image/webp"
+      media="(max-width: 640px)"
+      fetchpriority="high"
+    />
+
+    <!-- 2. Google Fonts: Preconnect & display=swap with only used weights (400, 600, italic) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    />
     <!-- JSON-LD LocalBusiness Schema -->
     <script type="application/ld+json">
     {

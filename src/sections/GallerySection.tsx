@@ -72,10 +72,13 @@ export const GallerySection: React.FC = () => {
               >
                 <img
                   src={item.image}
+                  width={isWide ? 700 : 400}
+                  height={isWide ? 440 : isTall ? 530 : 400}
                   alt={item.title}
                   className="w-full h-full object-cover object-center filter saturate-[0.92] group-hover:scale-108 group-hover:saturate-[1.02] transition-all duration-700 ease-out"
                   referrerPolicy="no-referrer"
                   loading="lazy"
+                  decoding="async"
                 />
 
                 {/* Subtle Hover Gradient & Details */}
